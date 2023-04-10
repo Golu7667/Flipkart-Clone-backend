@@ -4,7 +4,7 @@ const User = require("../../models/user");
 const { intialData } = require("../../controller/admin/initialData");
 
 
-router.post('/initialdata',intialData);
+router.get('/initialData',intialData);
 
 
 module.exports = router;
